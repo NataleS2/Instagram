@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+      font-family: Arial, sans-serif;
+      display: flex;  
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #fafafa;
+      }
+      
+      .login-container{
+        background: #fff;
+        border: 1px solid;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        width: 320px;
+    }
+  
+    .logo {
+       width: 180px;
+       margin-bottom: 20px;
+    }
+  
+    .login-form input{
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #dbdbdb;
+    }
+  
+    .login-form button{
+      width: 100;
+      padding: 10px;
+      background: #e628c6;
+      color: #ffffff;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  
+    .divider{
+      margin: 15px 0;
+      display: flex;
+      align-items: center;
+    }
+  
+    .divider::before, .divider::after{
+      content: '';
+      flex: 1;
+      border-top: 1px solid #dbdbdb;
+    }
+  
+    .ou{
+      margin: 0 15px;
+      color: #bebcbc;
+    }
+  
+    .login-form a {
+      color: #db58b0;
+      text-decoration: none;
+      display: block;
+    }
+  
+  /** OBS: display - é uma propriedade que especifica como um elemento HTML deve ser exibido na página
+           flex - é um valor da propriedade 
+           align-itens -  é uma propriedade CSS que define a forma como os itens flexíveis de um contêiner flexível são alinhados ao longo do eixo transversal do contêiner. 
+           Divider after / Divider before -  Um "divider" geralmente se refere a uma linha ou algum tipo de separador visual,você pode adicionar divisores antes ou depois de um elemento.
+           border-radius - define o arredondamento das bordas de um elemento. 
+           Cursor - o tipo de cursor do mouse que será exibido quando o cursor estiver sobre um elemento
